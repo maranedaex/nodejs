@@ -1,0 +1,42 @@
+{
+  "name": "notes-app",
+  "version": "1.0.0",
+  "description": "Login nodejs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "export NODE_ENV=dev && node src/index.js",
+    "startm": "brew services start mongodb-community@4.2",
+    "stop": "brew services stop mongodb-community@4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maranedaex/nodejs.git"
+  },
+  "keywords": [
+    "mc2a1288"
+  ],
+  "author": "Monica Araneda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maranedaex/nodejs/issues"
+  },
+  "homepage": "https://github.com/maranedaex/nodejs#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-error-handler": "^1.1.0",
+    "express-handlebars": "^3.1.0",
+    "express-session": "^1.17.0",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.9.5",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "handlebars": "^4.5.0",
+    "nodemon": "^2.0.2"
+  }
+}
